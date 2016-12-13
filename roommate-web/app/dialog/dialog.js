@@ -81,7 +81,7 @@ angular.module('myApp.dialog', ['ngMaterial','ngRoute'])
         $scope.showTabDialog = function(ev) {
             $mdDialog.show({
                 controller: DialogController,
-                templateUrl: 'tabDialog.tmpl.html',
+                templateUrl: 'dialog/dialog-tab.html',
                 parent: angular.element(document.body),
                 targetEvent: ev,
                 clickOutsideToClose:true
